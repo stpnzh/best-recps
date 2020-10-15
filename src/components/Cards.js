@@ -12,7 +12,7 @@ const Cards = (props) => {
       <Card.Img variant='top' src={ placeholder } style={{ width: `25%`}}/>
       <Card.Body>
         <Card.Title>{recipe.name}</Card.Title>
-        <Card.Text>{recipe.description}</Card.Text>
+        <Card.Text style={{ fontSize: `95%` }}>{recipe.description}</Card.Text>
         <RecipeModal recipe={recipe}/>
       </Card.Body>
     </Card>

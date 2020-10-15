@@ -5,8 +5,8 @@ import Cards from './Cards';
 
 const recipes = [
   {
-    name: 'Pho ga',
-    description: 'Chicken pho with beef balls',
+    name: 'Chicken pho',
+    description: 'Pho in a rich chicken broth',
     ingredients: ['4 lb chicken bones', '4.5 qt water', 'salt', 'sugar', '3 onions',
     '1 whole chicken, preferable free range and air chilled', 'beef balls', 'cilantro', 
    'green onions' ],
@@ -22,38 +22,38 @@ const recipes = [
      'About 1 hr before service, add charred onions.'
     ]
   }, {
-    name: 'chicken tikka masala',
-    description: 'Chicken curry',
+    name: 'Chicken tikka masala',
+    description: 'Creamy, tangy curry with broiled chicken',
     ingredients: ['chicken', 'yogurt', 'cream'],
     directions: ['add cream', 'boil water']
   }, {
-    name: 'tonkatsu',
-    description: '',
+    name: 'Strawberry smoothie',
+    description: 'Strawberry and condensed milk, Vietnamese-style',
     ingredients: ['pork loin', 'eggs', 'flour'],
     directions: ['deep fry']
   }, {
-    name: 'chocolate chip cookies',
-    description: 'choco chips',
+    name: 'Chocolate chip cookies',
+    description: 'Buttery and crisp',
     ingredients: ['flour', 'eggs', 'butter'],
     directions: ['melt butter', 'boil water']
   }, {
-    name: 'chicken wings',
-    description: 'Deep fried chicken wings',
+    name: 'Fried chicken wings',
+    description: 'Glazed, tangy, spicy, Korean-inspired',
     ingredients: ['chicken', 'potato starch', 'onion'],
     directions: ['parboil', 'boil water']
   }, {
-    name: 'chicken for tacos',
-    description: 'Crispy chicken',
+    name: 'Taco chicken',
+    description: 'Crispy chicken skins, juicy thigh meat',
     ingredients: ['chicken', 'paprika', 'chili pepper'],
     directions: ['debone', 'marinate']
   }, {
     name: 'Spaghetti',
-    description: 'Crispy chicken',
+    description: 'Meaty sauce with a hit of pecorino',
     ingredients: ['chicken', 'paprika', 'chili pepper'],
     directions: ['debone', 'marinate']
   }, {
     name: 'Thai fried rice',
-    description: 'Crispy chicken',
+    description: 'Delicate fried rice with a pop of fish sauce',
     ingredients: ['chicken', 'paprika', 'chili pepper'],
     directions: ['debone', 'marinate']
   }
@@ -63,7 +63,7 @@ const recipes = [
 const Home = () => {
   return (
     <Container>
-      <h1 style={{ paddingTop: `2rem`, paddingBottom: `2rem`, color: `gray` }}>stephanie's top 8 recipes</h1>
+      <h1 style={{ paddingTop: `2rem`, paddingBottom: `1rem`, color: `gray` }}>stephanie's top 8 recipes</h1>
       <Cards recipes={recipes}/>
     </Container>
   )
