@@ -8,7 +8,7 @@ import { Container, Row, Card } from 'react-bootstrap';
 const Cards = (props) => {
 
   const recipeObjects = props.recipes.map(recipe => 
-    <Card style={{ width: `25%`, height: `14rem` }}>
+    <Card style={{ width: `23%`, height: `14rem`, margin: `0.5rem` }}>
       <Card.Img variant='top' src={ placeholder } style={{ width: `25%`}}/>
       <Card.Body>
         <Card.Title>{recipe.name}</Card.Title>
@@ -20,8 +20,21 @@ const Cards = (props) => {
 
   let rows = [];
   let cells = [];
+  // recipeObjects.forEach((recipe, idx) => {
+  //   if (idx % 4 !== 0) {
+  //     cells.push(recipe);
+  //   } else {
+  //     rows.push(cells);
+  //     cells = [];
+  //     cells.push(recipe);
+  //   }
+  //   if (idx === recipeObjects.length - 1) {
+  //     rows.push(cells);
+  //   }
+  // });
+
   recipeObjects.forEach((recipe, idx) => {
-    if (idx % 4 !== 0) {
+    if (idx % 4 != 0) {
       cells.push(recipe);
     } else {
       rows.push(cells);
@@ -33,19 +46,6 @@ const Cards = (props) => {
     }
   });
 
-  // recipeObjects.forEach((recipe, idx) => {
-  //   if (idx % 4 != 0) {
-  //     cells.push(<Col>{recipe}</Col>);
-  //   } else {
-  //     rows.push(<Row>{cells}</Row>);
-  //     cells = [];
-  //     cells.push(<Col>{recipe}</Col>);
-  //   }
-  //   if (idx === recipeObjects.length - 1) {
-  //     rows.push(cells);
-  //   }
-  // });
-
   return (
     // <Container>
     //   <Row>
@@ -56,7 +56,7 @@ const Cards = (props) => {
     //   </Row>
     // </Container>
     <Container>
-      {rows.map((row, idx) => <Row key={idx}>{row}</Row>)}
+      {rows.map((row, idx) => <Row>{row}</Row>)}
     </Container>
   )
 }

@@ -11,12 +11,12 @@ const RecipeModal = (props) => {
 
   return (
     <>
-      <Button onClick={handleShow}>See recipe</Button>
+      <Button variant='outline-primary' onClick={handleShow}>See recipe</Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title >{props.recipe.name}</Modal.Title>
         </Modal.Header>
-        <Modal.Body  style={{ marginRight: `1rem`}}>
+        <Modal.Body style={{ marginRight: `1rem`, fontSize: `90%` }}>
           Ingredients
           <ul>{props.recipe.ingredients.map(i => <li>{i}</li>)}</ul>
           Directions

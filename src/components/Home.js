@@ -46,6 +46,16 @@ const recipes = [
     description: 'Crispy chicken',
     ingredients: ['chicken', 'paprika', 'chili pepper'],
     directions: ['debone', 'marinate']
+  }, {
+    name: 'Spaghetti',
+    description: 'Crispy chicken',
+    ingredients: ['chicken', 'paprika', 'chili pepper'],
+    directions: ['debone', 'marinate']
+  }, {
+    name: 'Thai fried rice',
+    description: 'Crispy chicken',
+    ingredients: ['chicken', 'paprika', 'chili pepper'],
+    directions: ['debone', 'marinate']
   }
 ]
 
@@ -53,7 +63,7 @@ const recipes = [
 const Home = () => {
   return (
     <Container>
-      <h1>the best recipes</h1>
+      <h1 style={{ paddingTop: `2rem`, paddingBottom: `2rem`, color: `gray` }}>stephanie's top 8 recipes</h1>
       <Cards recipes={recipes}/>
     </Container>
   )
