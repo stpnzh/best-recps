@@ -20,21 +20,8 @@ const Cards = (props) => {
 
   let rows = [];
   let cells = [];
-  // recipeObjects.forEach((recipe, idx) => {
-  //   if (idx % 4 !== 0) {
-  //     cells.push(recipe);
-  //   } else {
-  //     rows.push(cells);
-  //     cells = [];
-  //     cells.push(recipe);
-  //   }
-  //   if (idx === recipeObjects.length - 1) {
-  //     rows.push(cells);
-  //   }
-  // });
-
   recipeObjects.forEach((recipe, idx) => {
-    if (idx % 4 != 0) {
+    if (idx % 4 !== 0) {
       cells.push(recipe);
     } else {
       rows.push(cells);
@@ -47,16 +34,8 @@ const Cards = (props) => {
   });
 
   return (
-    // <Container>
-    //   <Row>
-    //     <Col>1</Col>
-    //     <Col>2</Col>
-    //     <Col>3</Col>
-    //     <Col>4</Col>
-    //   </Row>
-    // </Container>
     <Container>
-      {rows.map((row, idx) => <Row>{row}</Row>)}
+      {rows.map(row => <Row>{row}</Row>)}
     </Container>
   )
 }
