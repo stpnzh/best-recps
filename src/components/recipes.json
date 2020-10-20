@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Chicken pho",
+    "description": "Pho in a rich chicken broth",
+    "ingredients": ["4 lb chicken bones", "4.5 qt water", "salt", "sugar", "3 onions",
+    "1 whole chicken, preferable free range and air chilled", "beef balls", "cilantro", "green onions" ],
+    "directions": ["Bring ~5 qts of water to boil. Add chicken bones. Parboil for 5 mins.",
+    "Remove and rinse chicken bones. Discard parboiled water.",
+    "Add back rinsed chicken bones. Add 4.5 qts of tap water.", 
+    "Nestle 1 whole chicken into water. Add 1 tbs salt, 1 tsp sugar. Bring to boil.", 
+    "Once boiling, turn heat down to a simmer around 205F.", 
+    "Cook 1 whole chicken for 20-25 mins. Remove and set into ice bath.",
+    "Continue simmering broth for 2 hours.", 
+    "Meanwhile, filet meat from chicken bones and place in bowl. Add 1/2 tsp of salt to season. Refrigerate until using.", 
+    "Add back cooked bones to the broth. Continue simmering.", 
+    "About 1 hr before service, add charred onions."
+  ]}, 
+  {
+    "name": "Chicken tikka masala",
+    "description": "Creamy, tangy curry with broiled chicken",
+    "ingredients": ["chicken", "yogurt", "cream"],
+    "directions": ["add cream", "boil water"]
+  },
+  {
+    "name": "Strawberry smoothie",
+    "description": "Strawberry and condensed milk, Vietnamese-style",
+    "ingredients": ["pork loin", "eggs", "flour"],
+    "directions": ["deep fry"]
+  }, {
+    "name": "Chocolate chip cookies",
+    "description": "Buttery and crisp",
+    "ingredients": ["flour", "eggs", "butter"],
+    "directions": ["melt butter", "boil water"]
+  }, {
+    "name": "Fried chicken wings",
+    "description": "Glazed, tangy, spicy, Korean-inspired",
+    "ingredients": ["chicken", "potato starch", "onion"],
+    "directions": ["parboil", "boil water"]
+  }, {
+    "name": "Taco chicken",
+    "description": "Crispy chicken skins, juicy thigh meat",
+    "ingredients": ["chicken", "paprika", "chili pepper"],
+    "directions": ["debone", "marinate"]
+  }, {
+    "name": "Spaghetti",
+    "description": "Meaty sauce with a hit of pecorino",
+    "ingredients": ["chicken", "paprika", "chili pepper"],
+    "directions": ["debone", "marinate"]
+  }, {
+    "name": "Thai fried rice",
+    "description": "Delicate fried rice with a pop of fish sauce",
+    "ingredients": ["1 lb cooked rice, refrigerated", "1/2 lb chicken", "2 eggs, beaten", "1 shallot, diced", "6 cloves garlic, sliced", 
+    "1/2 tbs fish sauce", "1/2 tbs soy sauce", "1/2 tsp sugar", "1/4 c green onions"],
+    "directions": ["Heat up 1 tbs oil in wok. ", "Reduce heat to low and add shallots. Stir fry until translucent.", 
+    "Add eggs. Heat until set. Roll around as needed.", "Add rice and turn heat to high.", 
+    "Stir fry rice. Keep adding oil as needed. Once rice kernels are well dispersed, add cooked chicken.",
+    "Add fish sauce, soy sauce, and sugar. Stir fry until well incorporated.", "Add green onions and serve."]
+  }
+]

@@ -4,12 +4,11 @@ import RecipeModal from './RecipeModal';
 
 import { Container, Row, Card } from 'react-bootstrap';
 
-
 const Cards = (props) => {
 
   const recipeObjects = props.recipes.map(recipe => 
     <Card style={{ width: `23%`, height: `14rem`, margin: `0.5rem` }}>
-      <Card.Img variant='top' src={ placeholder } style={{ width: `25%`}}/>
+      {/* <Card.Img variant='top' src={ placeholder } style={{ width: `25%`}}/> */}
       <Card.Body>
         <Card.Title>{recipe.name}</Card.Title>
         <Card.Text style={{ fontSize: `95%` }}>{recipe.description}</Card.Text>
