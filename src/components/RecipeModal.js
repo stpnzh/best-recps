@@ -9,7 +9,6 @@ const RecipeModal = (props) => {
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
 
-
   const handleNested = (obj) => {
     if (Array.isArray(obj)) {
       let title = obj[0];

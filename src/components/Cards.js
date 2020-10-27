@@ -1,5 +1,5 @@
 import React from 'react';
-import placeholder from '../assets/images/placeholder.png';
+// import placeholder from '../assets/images/placeholder.png';
 import RecipeModal from './RecipeModal';
 
 import { Container, Row, Card } from 'react-bootstrap';
@@ -33,7 +33,7 @@ const Cards = (props) => {
   });
 
   return (
-    <Container>
+    <Container style={{ paddingLeft: `2rem`}}>
       {rows.map(row => <Row>{row}</Row>)}
     </Container>
   )
