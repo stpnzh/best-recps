@@ -12,3 +12,9 @@ This project was built with React and Bootstrap.
   <img src='images/img1.jpg' height='200' /> 
   <img src='images/img2.jpg' height='200' /> 
 </p>
+
+## Demo
+
+Hosted on Github Pages.
+
+https://stpnzh.github.io/recipes/
